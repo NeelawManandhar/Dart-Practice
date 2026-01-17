@@ -1,15 +1,14 @@
 /* 5. Write a function factorial(int n) that calculates the factorial of a number using a loop. */
 
 void factorial(int n){
-  int i = 1 , sum =0;
+  int i = 1 , result =1;
   for(i ;i<=n;i++){
-    sum = i * (sum+1);
+    result *=i ;
       }
-  print("The factorial of $n is : $i");
+  print("The factorial of $n is : $result");
 }
 
 void main(){
-  factorial(3);
+  factorial(4);
 }
 
-// 1 x 2 x 3 = 6
